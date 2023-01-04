@@ -1,0 +1,9 @@
+
+header, footer, img, .nav, .header-image, .left, .right {
+  display: none;
+}
+
+body {
+    background-color: white;
+    color: black;
+}

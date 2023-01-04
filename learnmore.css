@@ -1,0 +1,112 @@
+
+@media screen and (max-width: 800px) {
+  .column.middle, .nav, .nav a {
+     width: 100%;
+     
+   }
+  }
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: calibri, sans-serif; 
+}
+
+
+h1 {
+    font-size: 40px;
+    border-style: groove;
+    text-align: center;
+  }
+
+  p {
+    padding: 2px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  
+.header-image {
+  background-image: url("../Images/header.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+    
+
+.nav {
+    background-color: #002b1a;
+    overflow: hidden;
+  }
+  
+  .nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    width: 20%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .nav a.active {
+    background-color: black;
+    color: white;
+  }
+
+  .column {
+    float: left;
+    height: 100%;
+  
+  }
+  
+  .column.side {
+    width: 20%;
+    background: aliceblue;
+  
+  }
+  
+  .column.middle {
+    width: 60%;
+    background: white;
+  }
+
+  
+
+  #wrap {
+    margin: 2em 3em;
+  }
+  
+    .left {
+      float: left;
+      margin-right: 1.5em;
+    }
+
+    blockquote {
+      font-style: italic;
+    }
+
+
+  table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  }
+
+  table {
+    width: 100%;
+  }
+    
+  
+  

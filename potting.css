@@ -1,0 +1,101 @@
+
+@media screen and (max-width: 800px) {
+  .column.middle, .nav, .nav a {
+     width: 100%; 
+   }
+  }
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: calibri, sans-serif; 
+}
+
+
+p {
+  text-align: center;
+  margin-right: 1.5em;
+}
+
+
+#header {
+  text-align: center;
+}
+
+.header-image {
+  background-image: url("../Images/header.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+    
+
+.nav {
+    background-color:  #002b1a;
+    overflow: hidden;
+  }
+  
+  .nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    width: 20%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .nav a.active {
+    background-color: black;
+    color: white;
+  }
+
+
+  
+h1 {
+  font-size: 40px;
+  border-style: groove;
+  text-align: center;
+}
+
+.column {
+  float: left;
+}
+
+
+.column.side {
+  width: 25%;
+  height: 100%;
+  background: white;
+
+}
+
+.column.middle {
+  width: 50%;
+  height: 100%;
+  background: white;
+}
+
+#wrap {
+  margin: 2em 3em;
+}
+
+  .right {
+    float: right;
+    margin-left: 1.5em;
+  }
+
+  .left {
+    float: left;
+    margin-right: 1.5em;
+  }
